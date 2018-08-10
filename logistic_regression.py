@@ -116,4 +116,4 @@ if __name__ == '__main__':
     X_test = np.array([[1.3, 2.4, 2.1],
                        [0.4, 0.9, 3.1]])
     print('Predicted labels: ', log_reg.predict(X_test))
-    print('Expected labbels: ', np.array([[1, 0]]))
+    print('Expected labels: ', np.array([[1, 0]]))
