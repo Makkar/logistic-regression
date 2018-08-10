@@ -112,7 +112,7 @@ if __name__ == '__main__':
                   [2.1, 2.1, 1.5]])
     Y = np.array([1, 0, 0, 1])
     log_reg = LogisticRegression(verbose=True)
-    log_reg.train(X, Y, num_iter=10000)
+    log_reg.train(X, Y, num_iter=10000, lr=0.1)
     X_test = np.array([[1.3, 2.4, 2.1],
                        [0.4, 0.9, 3.1]])
     print('Predicted labels: ', log_reg.predict(X_test))
